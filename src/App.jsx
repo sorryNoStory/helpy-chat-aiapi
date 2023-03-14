@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 import ChatBody from "./components/ChatBody";
 import ChatInput from "./components/ChatInput";
@@ -30,7 +31,7 @@ function App() {
 
       {/* header */}
       <div className="uppercase font-bold  text-2xl text-center mb-3">
-        HELPY
+        HELPY Chat
       </div>
 
       {/* body */}
